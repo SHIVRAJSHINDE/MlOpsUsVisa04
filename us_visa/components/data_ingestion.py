@@ -44,6 +44,7 @@ class DataIngestion:
 
         except Exception as e:
             raise USvisaException(e,sys)
+            
 
     def split_data_as_train_test(self,dataframe: DataFrame) ->None:
 
