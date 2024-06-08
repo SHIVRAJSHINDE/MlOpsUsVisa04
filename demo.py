@@ -7,7 +7,7 @@ try:
     pipeline = TrainPipeline()
     pipeline.run_pipeline()
 except Exception as e:
-    raise USvisaException(e,sys)
+    print(USvisaException(e,sys))
 
 
 
