@@ -25,9 +25,9 @@ class USvisaException(Exception):
         typeError = f"{RED}{typeError}{RESET}"
         file_name = "File: "+ file_name
         file_name = f"{ORANGE}{file_name}{RESET}"
-        lineNumber =  "--Line_Number: " +str(lineNumber)
+        lineNumber =  "__Line_Number: " +str(lineNumber)
         lineNumber = f"{ORANGE}{lineNumber}{RESET}"
-        error = f"---Error_Message: {erroName} + {str(error)} "
+        error = f"___Error_Message: {erroName} + {str(error)} "
         error = f"{ORANGE}{error}{RESET}"
         
         error_message = "\n{0}\n{1}\n{2}\n{3}".format(typeError,file_name, lineNumber, error)
